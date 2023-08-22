@@ -4,8 +4,8 @@ import cv2
 capture = cv2.VideoCapture(0)
 #capture = cv2.VideoCapture("markertest.mov")
 
-face_detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml") 
-eye_detector = cv2.CascadeClassifier("haarcascade_eye.xml") 
+face_detector = cv2.CascadeClassifier("haarcascade/haarcascade_frontalface_default.xml") 
+eye_detector = cv2.CascadeClassifier("haarcascade/haarcascade_eye.xml") 
 
 while True:
 	ret, img = capture.read() #img type is numpy.ndarray

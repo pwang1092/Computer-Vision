@@ -6,7 +6,7 @@ import numpy as np
 dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
 parameters = cv2.aruco.DetectorParameters()
 detector = cv2.aruco.ArucoDetector(dictionary, parameters)
-face_detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml") 
+face_detector = cv2.CascadeClassifier("haarcascade/haarcascade_frontalface_default.xml") 
 
 #bbox bounding box
 
