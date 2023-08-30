@@ -108,6 +108,3 @@ while True:
 # allow other processes to use the camera after release
 capture.release() 
 cv2.destroyAllWindows
-
-
-
